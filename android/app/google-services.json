@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "803335742160",
+    "firebase_url": "https://fixit-cc3f8.firebaseio.com",
+    "project_id": "fixit-cc3f8",
+    "storage_bucket": "fixit-cc3f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803335742160:android:dbfb767e823882d1b834d5",
+        "android_client_info": {
+          "package_name": "com.fixitthailand.fixit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803335742160-5ft52d7bcae4496e3uji3d9j3b6n6bgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVdN9R8TQd4iIBtGdNFjcVSmKUsx3Javs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803335742160-5ft52d7bcae4496e3uji3d9j3b6n6bgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

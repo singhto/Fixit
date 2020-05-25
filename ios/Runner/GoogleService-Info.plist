@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>803335742160-j64i25mrlc9kjielqj0hep3s9n58fk4u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.803335742160-j64i25mrlc9kjielqj0hep3s9n58fk4u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCNKfdYGGKtgvstZwY2W9cBl-dWQgwgMoo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>803335742160</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fixitthailand.fixit</string>
+	<key>PROJECT_ID</key>
+	<string>fixit-cc3f8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fixit-cc3f8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:803335742160:ios:123818f99faf742bb834d5</string>
+	<key>DATABASE_URL</key>
+	<string>https://fixit-cc3f8.firebaseio.com</string>
+</dict>
+</plist>
