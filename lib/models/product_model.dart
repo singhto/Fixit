@@ -1,15 +1,16 @@
 class ProductModel {
 
   // Field
-  String name, detail, pathImage;
+  String showName, showDetail, urlPicture;
 
   // Method
-  ProductModel(this.name, this.detail, this.pathImage);
+  ProductModel(this.showName, this.showDetail, this.urlPicture);
+
 
   ProductModel.fromMap(Map<String, dynamic> map){
-    name = map['Name'];
-    detail = map['Detail'];
-    pathImage = map['PathImage'];
+    showName = map['NameShop'];
+    showDetail = map['Detail'];
+    urlPicture = map['Photo'];
   }
 
   
