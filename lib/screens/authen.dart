@@ -1,5 +1,6 @@
-import 'dart:wasm';
+//import 'dart:wasm';
 
+import 'package:fixit/screens/forgot_password.dart';
 import 'package:fixit/screens/my_service.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -32,14 +33,42 @@ class _AuthenState extends State<Authen> {
     return Center(
       child: Form(
         key: formKey,
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            showAppName(),
-            emailText(),
-            passwordText(),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              showAppName(),
+              emailText(),
+              passwordText(),
+              forgotButton(),
+            ],
+          ),
         ),
+      ),
+    );
+  }
+
+  Widget forgotButton() {
+    return Container(
+      width: 250.0,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: <Widget>[
+          FlatButton(
+            onPressed: () {
+              MaterialPageRoute route = MaterialPageRoute(
+                builder: (context) => ForgotPassword(),
+              );Navigator.push(context, route);
+            },
+            child: Text(
+              'Forget Password',
+              style: TextStyle(
+                color: Colors.pink.shade700,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

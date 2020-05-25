@@ -8,7 +8,13 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: ThemeData(primarySwatch: Colors.grey),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.grey,
+        primaryTextTheme: TextTheme(title: TextStyle(color: Colors.white)),
+        primaryIconTheme: IconThemeData(color: Colors.white),
+      ),
       home: Home(),
     );
   }

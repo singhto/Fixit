@@ -13,7 +13,7 @@ class MyService extends StatefulWidget {
 class _MyServiceState extends State<MyService> {
   // Explicit
   String login = '...';
-  Widget currentWidget =ShowListProduct();
+  Widget currentWidget = ShowListProduct();
 
   // Method
 
@@ -51,10 +51,11 @@ class _MyServiceState extends State<MyService> {
       title: Text('สมัครเป็นช่าง'),
       subtitle: Text('New Product Database'),
       onTap: () {
-        setState(() {
-          currentWidget = AddListProduct();
-        });
         Navigator.of(context).pop();
+        MaterialPageRoute route = MaterialPageRoute(
+          builder: (context) => AddListProduct(),
+        );
+        Navigator.push(context, route);
       },
     );
   }
